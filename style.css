@@ -89,6 +89,9 @@ input{
 
 .form_radio input[type=radio] {
 	display: none;
+  width: 18px;
+  height: 18px;
+  radius: 50%;
 }
 
 
@@ -104,4 +107,11 @@ input{
 p{
   font-size: 1.125rem;
   padding-top: 15px;
+  margin-top: auto;
+}
+
+.form-group-checkbox input[type=checkbox]{
+width: 20px;
+height: 20px;
+display: block;
 }
