@@ -1,4 +1,5 @@
 body{
+
   background: url("https://scienceandtech.ru/wp-content/uploads/2020/01/2-1.jpg") 100% 100%;
   background-size: cover;
   font-family: 'Poppins', sans-serif;
@@ -6,6 +7,13 @@ body{
   line-height: 1.9;
   color:#c00;
 }
+
+.container{
+
+    
+}
+
+
 .header{
   display: block;
   text-align:center;
@@ -71,4 +79,29 @@ input{
 }
 .description-option{
  color:#778695;
+}
+
+.form-radio{
+ padding: 10px 0 5px 5px;
+ position: relative;
+ display: inline-block;
+}
+
+.form_radio input[type=radio] {
+	display: none;
+}
+
+
+.form_radio label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 25px;
+	margin-right: 0;
+	line-height: 18px;
+	user-select: none;
+}
+p{
+  font-size: 1.125rem;
+  padding-top: 15px;
 }
