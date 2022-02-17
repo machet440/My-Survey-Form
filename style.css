@@ -115,3 +115,21 @@ width: 20px;
 height: 20px;
 display: block;
 }
+.form-group{
+  padding-top: 20px;
+}
+
+.comment{
+  
+ 
+  padding: 0.625rem;
+  
+}
+
+#submit{
+  display: block;
+  height: 30px;
+  width: 100%;
+  border-radius: 6px;
+  color:#c00;
+}
